@@ -22,4 +22,9 @@ public class RightTriangle implements Shape {
     public double getGipotenuza() {
         return gipotenuza;
     }
+
+    @Override
+    public double getArea() {
+        return getKatet1() * getKatet2() / 2.0;
+    }
 }
